@@ -1,0 +1,106 @@
+1. What are the Conditional Operators in Java?
+Ans: They aJe used when a condition comprises more than one boolean expression. For instance/ if we want to
+print a number only if it is greater than 2 and less than 5/ then we will use conditional opeJatoJs to combine the 2 expJessions. We have 3 types of conditional opeJatoJs - logical-and/ logical-oJ and ternary Operator.
+Logical-and operator (&&)
+It is used when we want the condition to be true iff both the expression are true.
+Syntax
+
+Logical-or operator (||)
+This opeJatoJ is used when we aJe satisfied as long as any one of the boolean exprssion is evaluated as true.
+Syntax
+
+Ternary operator (?:)
+It is a smaller version for the if-else statement. If the condition is true then the statement - 1 is executed else the
+statement - 2 is executed.
+Syntax
+condition ? statement - 1  statement - 2;
+
+2. What are the types of operators based on the number of operands?
+Ans: TheJe aJe thJee types of opeJatoJs in java based on the numbeJ of opeJands. They aJe
+- Unary Operator
+- Binary Operator
+- Ternary Operator
+.
+3. What is the use of Switch case in Java programming?
+Ans: Switch statement
+The switch case in java is used to select one of many code blocks for execution.
+Break keyword: As java reaches a break keyword/ the control break out of the switch block. The execution of code stops on encountering this keyword/ and the case testing inside the block ends as the match is found. A lot of execution time can be saved because it ignores the rest of the code's execution when there is a break.
+Default keyword The keyword is used to specify the code executed when the expression does not match any test case.
+The switch case in Java works like an if-else ladder/ i.e./ multiple conditions can be checked at once. Switch is
+provided with an expression that can be a constant of literal expression that can be evaluated. The value of the
+expression is matched with each test case till a match is found. If there is no match/ the default keywoJd/ if
+specified- the associated code executes. OtheJwise/ the code specified foJ the matched test case is executed.
+
+For example:
+public class Main {
+public static void main(String[] args) {
+int month = 4;
+switch (month) {
+case 1:
+System.out.println("January");
+break;
+case 2:
+System.out.println("February");
+break;
+case 3:
+System.out.println("March");
+break;
+case 4:
+System.out.println("April");
+break;
+case 5:
+System.out.println("May");
+break;
+case 6:
+System.out.println("June");
+break;
+default: System.out.println("In next half");
+}
+}
+}
+Output:
+April
+
+4. What are the priority levels of arithmatic operations in Java?
+Ans. There are two priority levels of arithematic oprations in java. They are as follows:
+High Priority *,/,%.
+Low Priority +,-
+
+5. What are the conditional statements and use of conditional statements in Java?
+Ans. If to specify a block of clode to be executed if a specified condition in true.
+- else ot ospecify a block of code to be executed, if the same condition is false;
+- else if to specify a new condition to test, if the first condition is false;
+- switch of specify many alternative blocks of code to be executed.
+
+6. What is the syntax of if else statement?
+Ans. if (condition1) {
+// block of code to be executed if condition1 is true
+} else if (condition2) {
+// block of code to be executed if the condition1 is false and condition2 is true
+} else {
+// block of code to be executed if the condition1 is false and condition2 is false
+}
+
+
+
+7. What are the 3 types of iterative statements in java?
+There are three types of loops in Java.
+1. for loop
+2. while loop
+3. do-while loop
+
+9. Write a program to print numUers from 1 to 10.
+
+public class PrintNumbers
+{
+public static void main(String[] args)
+{
+for(int i=1; i<=10; i++)
+{
+System.out.println(i);
+}
+}
+}
+
+
+

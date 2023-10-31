@@ -1,0 +1,32 @@
+1. How to create an object in java?
+There are several ways by which we can create objects of a class in java as we all know a class provides
+the blueprint for objects, you create an object fro the class. This concept is under-rated and sometimes proves
+to be beneficial as this concept is bypasses by many programmers and sometimes even do ask fro interview
+perceptive.
+Methods:
+There are many different ways to create objects in Java. the help of programs to illustrate internal working by which we can create objects in Java.
+1. Using new keyword
+2. Using new instance^
+3. Using clone() method
+4. Using deserialization;
+by Using newInstance()method of Constructor class
+
+Let us Discuss them one by one and implement the same by appending a clean java program for the same.
+Method 1: Using new keyword
+Using the new keyword in java is the most basic way to create an object. This is the most common way to create an object in java. Almost 99% of objects are create in this way. By using this method we can call any constructor we want to call (no argument or parameterized constructor.
+
+2. What is the use of a new keyword in Java?
+The "new" keyword in Java is used to create an instance of an object. It allocates Memory to an object and returns a reference to the object created. It is used with a constructor to create an object.
+3. What are the different types of variables in Java?
+- Static Variables
+- Instance Variables
+- Local Variables
+
+5. In which area memory is allocated for instance variable and local variable?
+Instance variables are allocated in the heap and local variables are allocated in the stack.
+
+6. What is method overloading?
+Method overloading in Java is a feature that allows a class to have multiple methods with the same name
+but different parameters. The Java compiler distinguishes these methods by the number, type, and order of
+parameters. Overloading is used to provide multiple ways to call a method for different use cases, making
+code more readable and reusable.
